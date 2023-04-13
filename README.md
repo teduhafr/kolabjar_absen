@@ -39,3 +39,14 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+
+untuk menjalankan di container
+
+terakhir adalah nama bebas
+
+docker build -t bpn/fontabsenkolabjar .
+
+docker run -d -it -p 2626:80 --rm --name fontabsenkolabjar bpn/fontabsenkolabjar
+
+nb. port bisa diatur sesuka hati (yang 8080)
