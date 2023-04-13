@@ -1,5 +1,5 @@
 export const dataAwal = {
     hostServer: 
-    'http://localhost:2323/',
+    'http://localhost:2929/',
 };
  
