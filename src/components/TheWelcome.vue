@@ -77,7 +77,7 @@ function ambilData(){
 
             axios
                 .post(
-                    dataAwal.hostServer +"dataabsen" , body
+                    dataAwal.hostServer +"dataabsen1" , body
                 )
                 .then(function (response) {
                     if (!response) {
