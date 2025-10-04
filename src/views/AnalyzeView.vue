@@ -142,7 +142,7 @@ button:disabled { background-color: #ccc; cursor: not-allowed; }
 button:hover:not(:disabled) { background-color: hsla(160, 100%, 30%, 1); }
 .loading { text-align: center; padding: 1rem; color: var(--color-text); }
 .error { background-color: #ffdddd; border-left: 4px solid #f44336; padding: 1rem; color: #721c24; }
-.results { margin-top: 2rem; background: var(--color-background-soft); padding: 1.5rem; border-radius: 12px; }
+.results { margin-top: 2rem; background: var(--color-background-soft); padding: 1.5rem; border-radius: 12px; color: white }
 .results h2 { margin-top: 0; }
 .results ul { padding-left: 20px; }
 .results li { margin-bottom: 0.5rem; }
