@@ -16,11 +16,17 @@
 .item {
   margin-top: 2rem;
   display: flex;
+  background: var(--color-background-soft);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(87, 77, 77, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .details {
   flex: 1;
   margin-left: 1rem;
+  color: var(--color-text);
 }
 
 i {
@@ -41,12 +47,18 @@ h3 {
 
 @media (min-width: 1024px) {
   .item {
+    background: transparent;
+    box-shadow: none;
     margin-top: 0;
     padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
   }
 
+  .item:hover {
+    transform: none;
+  }
+
   i {
-    top: calc(50% - 25px);
+    top: calc(50% - 25px); /* 50% of parent - half of its own height */
     left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
